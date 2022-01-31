@@ -19,7 +19,7 @@ h1, h2 {
     border-width: 1px;
     border-color: black; */
     /* border: 1px solid #DCDCDC; */
-    border: 1px solid #696969;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -34,19 +34,36 @@ h1, h2 {
 
 
 .top {
-    border-top: 2px solid black;
+    border-top: 1px solid black;
+}
+
+.topthick {
+    border-top: 3px solid black;
+}
+
+.bottomthick {
+    border-bottom: 3px solid black;
 }
 
 .bottom {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 .right {
     border-right: 2px solid black;
 }
 
+.rightthick {
+    border-right: 3px solid black;
+}
+
+
 .left {
-    border-left: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.leftthick {
+    border-left: 3px solid black;
 }
 
 .palette {
