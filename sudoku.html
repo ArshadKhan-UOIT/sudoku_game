@@ -8,115 +8,122 @@
 </head>
 <body>
     <link rel="stylesheet" href="styles/sudoku.css">
-
     <h1>Lab 2</h1> 
     <h2>Arshad Khan 100695721</h2>
-
-    <div class="table">
-
-        <div class="box leftthick topthick"></div>
-        <div class="box topthick">1</div>
-        <div class="box topthick right"></div>
-        <div class="box topthick left"></div>
-        <div class="box topthick"></div>
-        <div class="box topthick right"></div>
-        <div class="box topthick left"></div>
-        <div class="box topthick">9</div>
-        <div class="box topthick rightthick"></div>
-
-        <div class="box leftthick"></div>
-        <div class="box"></div>
-        <div class="box right">4</div>
-        <div class="box left"></div>
-        <div class="box"></div>
-        <div class="box right"></div>
-        <div class="box left">2</div>
-        <div class="box"></div>
-        <div class="box rightthick"></div>
-
-        <div class="box bottomthick leftthick"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right">8</div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right">5</div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick rightthick"></div>
-
-        <div class="box top leftthick"></div>
-        <div class="box top"></div>
-        <div class="box top right"></div>
-        <div class="box top left"></div>
-        <div class="box top"></div>
-        <div class="box top right"></div>
-        <div class="box top left"></div>
-        <div class="box top">3</div>
-        <div class="box top rightthick"></div>
-
-        <div class="box leftthick">2</div>
-        <div class="box"></div>
-        <div class="box right"></div>
-        <div class="box left"></div>
-        <div class="box">4</div>
-        <div class="box right"></div>
-        <div class="box left">1</div>
-        <div class="box"></div>
-        <div class="box rightthick"></div>
-
-        <div class="box bottomthick leftthick"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right"></div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right"></div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick rightthick"></div>
-
-        <div class="box top leftthick"></div>
-        <div class="box top"></div>
-        <div class="box top right">1</div>
-        <div class="box top left">8</div>
-        <div class="box top"></div>
-        <div class="box top right"></div>
-        <div class="box top left">6</div>
-        <div class="box top"></div>
-        <div class="box top rightthick"></div>
-
-        <div class="box leftthick"></div>
-        <div class="box">3</div>
-        <div class="box right"></div>
-        <div class="box left"></div>
-        <div class="box"></div>
-        <div class="box right"></div>
-        <div class="box left"></div>
-        <div class="box">8</div>
-        <div class="box rightthick"></div>
-
-        <div class="box bottomthick leftthick"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right">6</div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick right"></div>
-        <div class="box bottomthick left"></div>
-        <div class="box bottomthick"></div>
-        <div class="box bottomthick rightthick"></div>
-
-    </div>
-    <div class="palette">
-        <div class="pbox bottomthick topthick leftthick">1</div>
-        <div class="pbox bottomthick topthick">2</div>
-        <div class="pbox bottomthick topthick">3</div>
-        <div class="pbox bottomthick topthick">4</div>
-        <div class="pbox bottomthick topthick">5</div>
-        <div class="pbox bottomthick topthick">6</div>
-        <div class="pbox bottomthick topthick">7</div>
-        <div class="pbox bottomthick topthick">8</div>
-        <div class="pbox bottomthick topthick">9</div>
-        <div class="pbox bottomthick topthick rightthick back"><img src='images/undo.png'></div>
-    </div>
-    
+    <table class="board" cellspacing="0">
+        <tr>
+            <td class="box leftthick topthick"></td>
+            <td class="box topthick">1</td>
+            <td class="box topthick right"></td>
+            <td class="box topthick left"></td>
+            <td class="box topthick"></td>
+            <td class="box topthick right"></td>
+            <td class="box topthick left"></td>
+            <td class="box topthick">9</td>
+            <td class="box topthick rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box leftthick"></td>
+            <td class="box"></td>
+            <td class="box right">4</td>
+            <td class="box left"></td>
+            <td class="box"></td>
+            <td class="box right"></td>
+            <td class="box left">2</td>
+            <td class="box"></td>
+            <td class="box rightthick"></td>
+        </tr>
+        <tr> 
+            <td class="box bottomthick leftthick"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right">8</td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right">5</td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box top leftthick"></td>
+            <td class="box top"></td>
+            <td class="box top right"></td>
+            <td class="box top left"></td>
+            <td class="box top"></td>
+            <td class="box top right"></td>
+            <td class="box top left"></td>
+            <td class="box top">3</td>
+            <td class="box top rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box leftthick">2</td>
+            <td class="box"></td>
+            <td class="box right"></td>
+            <td class="box left"></td>
+            <td class="box">4</td>
+            <td class="box right"></td>
+            <td class="box left">1</td>
+            <td class="box"></td>
+            <td class="box rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box bottomthick leftthick"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right"></td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right"></td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box top leftthick"></td>
+            <td class="box top"></td>
+            <td class="box top right">1</td>
+            <td class="box top left">8</td>
+            <td class="box top"></td>
+            <td class="box top right"></td>
+            <td class="box top left">6</td>
+            <td class="box top"></td>
+            <td class="box top rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box leftthick"></td>
+            <td class="box">3</td>
+            <td class="box right"></td>
+            <td class="box left"></td>
+            <td class="box"></td>
+            <td class="box right"></td>
+            <td class="box left"></td>
+            <td class="box">8</td>
+            <td class="box rightthick"></td>
+        </tr>
+        <tr>
+            <td class="box bottomthick leftthick"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right">6</td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick right"></td>
+            <td class="box bottomthick left"></td>
+            <td class="box bottomthick"></td>
+            <td class="box bottomthick rightthick"></td>
+        </tr>
+    </table>
+    <table class="palette" cellspacing="0">
+        <tr>
+            <td class="pbox bottomthick topthick leftthick">1</td>
+            <td class="pbox bottomthick topthick">2</td>
+            <td class="pbox bottomthick topthick">3</td>
+            <td class="pbox bottomthick topthick">4</td>
+            <td class="pbox bottomthick topthick">5</td>
+            <td class="pbox bottomthick topthick">6</td>
+            <td class="pbox bottomthick topthick">7</td>
+            <td class="pbox bottomthick topthick">8</td>
+            <td class="pbox bottomthick topthick">9</td>
+            <td class="pbox bottomthick topthick rightthick"><img src='images/undo.png'></td>
+        </tr>
+    </table>
 </body>
 </html>
