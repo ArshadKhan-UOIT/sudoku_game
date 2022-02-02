@@ -16,24 +16,14 @@ table {
 }
 
 td {
-    /* width: 10%; */
     height: 1em;
-    /* width: 1em; */
 }
 
 .box {
-    /* border-style: solid;
-    border-width: 1px;
-    border-color: black; */
-    /* border: 1px solid #DCDCDC; */
     border: 1px solid #676767;
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
     padding: 5px;
     height: 1em;
     width: 1em;
-    /* margin: auto; */
 }
 
 .box:hover {
@@ -51,9 +41,6 @@ img {
 
 .pbox {
     border: 1px solid #676767;
-    /* display: flex;
-    justify-content: center; */
-    /* text-align: center; */
     padding: 5px;
     height: 1em;
     width: 1em;
@@ -63,8 +50,24 @@ img {
     background-color: #f2f2f2;
 }
 
-.top {
-    border-top: 1px solid #676767;
+.board tr > td:nth-child(3n)  {
+    border-right: 3px solid black;
+}
+
+.board tr > td:nth-child(1) {
+    border-left: 3px solid black;
+}
+
+.board > tr:nth-child(3), tr:nth-child(6)  { 
+    border-bottom: 3px black solid;
+}
+
+.palette tr > td:nth-child(1) {
+    border-left: 3px solid black;
+}
+
+.palette tr > td:nth-child(10) {
+    border-right: 3px solid black;
 }
 
 .topthick {
@@ -73,27 +76,6 @@ img {
 
 .bottomthick {
     border-bottom: 3px solid black;
-}
-
-.bottom {
-    border-bottom: 1px solid black;
-}
-
-.right {
-    border-right: 3px solid black;
-}
-
-.rightthick {
-    border-right: 3px solid black;
-}
-
-
-.left {
-    border-left: 1px solid #676767;
-}
-
-.leftthick {
-    border-left: 3px solid black;
 }
 
 .user-input {
