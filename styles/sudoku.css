@@ -23,7 +23,8 @@ td {
 .box {
     border: 1px solid #676767;
     padding: 5px;
-    height: 1em;
+    margin: 5px;
+    height: 35px;
     width: 1em;
 }
 
@@ -33,6 +34,7 @@ td {
 
 .palette {
     margin-top: 2em;
+    width: 350px;
 }
 
 img {
@@ -43,12 +45,12 @@ img {
 .pbox {
     border: 1px solid #676767;
     padding: 5px;
-    height: 1em;
+    height: 35px;
     width: 1em;
 }
 
 .pbox:hover {
-    background-color: #f2f2f2;
+    background-color: #f5dd90;
 }
 
 .board tr > td:nth-child(3n)  {
